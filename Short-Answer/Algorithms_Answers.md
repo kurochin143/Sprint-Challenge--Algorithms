@@ -18,4 +18,11 @@ n is reduced by one every recursion, and ending when n is 0, resulting in n as t
 
 ## Exercise II
 
+for ef in eggs: # ef is max floor the egg can take
+    # min_f is optimum f
+    if ef < min_f:
+        min_f = ef
+return min_f
 
+O(n)
+n as the number of eggs
