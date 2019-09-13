@@ -7,9 +7,17 @@ O(n)
 The loop requires n^3 loops before stopping, but since a is incremented by n^2, it reduces the number of loops by n^2. n^3/n^2 = n
 
 b)
-O(n^2)
-The outer loop loops by n and nested by another n loop which results in n^2. n*n = n^2
-This should be less than n^2 because the second n is reduced by j *= 2 considerably
+O(nlog(n))
+The outer loop loops by n and nested by another n loop which results in n^2
+But because the second n is reduced by j *= 2 it becomes log(n). n*log(n) = nlog(n)
+2 = 1
+5 = 2
+9 = 3
+17 = 4
+24 = 5
+49 = 6
+99 = 7
+plotting this on the graph will show a log(n) curve
 
 c)
 O(n)
