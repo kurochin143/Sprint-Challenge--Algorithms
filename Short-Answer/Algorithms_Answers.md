@@ -10,6 +10,7 @@ b)
 O(nlog(n))
 The outer loop loops by n and nested by another n loop which results in n^2
 But because the second n is reduced by j *= 2 it becomes log(n). n*log(n) = nlog(n)
+n = loops
 2 = 1
 5 = 2
 9 = 3
